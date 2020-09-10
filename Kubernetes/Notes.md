@@ -1,3 +1,6 @@
+https://app.pluralsight.com/course-player?clipId=a872dce1-8314-4876-a236-45fdff6d1ff3
+
+
 An Orchestrator for microservices apps
 Like a coach of a soccer team
 Don't run users workload on the master
@@ -15,5 +18,14 @@ Node:
 
 Give to a master a manifest file > describe desired state
 
+Pod : atomic unit of scheduling
+
+Containers always run inside of pods
+
+Pods can have multiple containers (advanced use-case / Main & Sidecar) - All containers in pod share the pod environment
+
+Pod never resurect: pending > running > succeeded / failed
+
+Link between service (persistent DNS / IP) and pods is made through labels (like tags: 1.3, PROD, BackEnd)
 
 
