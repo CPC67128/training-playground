@@ -44,3 +44,19 @@ $ kubectl apply -f <file.yml>
 $ kubectl expose rc <name> --name=<name> --target-port=8080 --type=NodePort
 $ kubectl describe svc <name>
 ```
+
+Replication Controllers : scale pods, desired state
+
+Deployments: RC + rolling updates, rollbacks
+
+Services: stable networking
+
+
+
+Minikube > Local k8s environment
+
+Google Container Engine GKE > Packaged Kubernetes
+
+AWS Provider
+
+Manual Install
