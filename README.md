@@ -7,3 +7,8 @@
 * GraphQL
 * Python
 * https://etcd.io/
+* Fixtures : test data sampling for PHP
+* Adobe XD
+* Twig
+* Mercure Hub pour chat room
+
