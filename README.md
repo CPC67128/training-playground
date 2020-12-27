@@ -11,4 +11,6 @@
 * Adobe XD
 * Twig
 * Mercure Hub pour chat room
-
+* REDIS (key-value DB)
+* Netfilter / iptables + fail2ban
+* Tor : Vidalia (UI), utilisation en proxy local associé à Polipo ou Privoxy / Tor Browser
