@@ -1,0 +1,21 @@
+sudo apt update
+sudo apt install mariadb-server
+sudo systemctl status mariadb
+
+sudo mysql_secure_installation
+> Set root password
+
+sudo mysql -u root
+
+mysql> CREATE USER 'webscraping'@'localhost' IDENTIFIED BY 'B+CP%ES/+.N+OD6r:t?6e>';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'webscraping'@'localhost' WITH GRANT OPTION;
+mysql> CREATE USER 'webscraping'@'%' IDENTIFIED BY 'B+CP%ES/+.N+OD6r:t?6e>';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'webscraping'@'%' WITH GRANT OPTION;
+mysql> FLUSH PRIVILEGES;
+
+sudo service mysqld restart
+
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
+bind-address = 127.0.0.1 > 0.0.0.0
+
+sudo systemctl restart mariadb.service

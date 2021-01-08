@@ -1,0 +1,9 @@
+steve@shuttle:~$ sudo nano /etc/lighttpd/lighttpd.conf
+server.port = 80 > 8053
+steve@shuttle:~$ sudo service lighttpd restart
+
+
+sudo nano /etc/resolv.conf
+
+change 127.0.0.53 by 127.0.0.1
+Restart

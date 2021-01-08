@@ -1,0 +1,27 @@
+Source: https://linuxize.com/post/how-to-set-or-change-timezone-on-ubuntu-18-04/
+
+timedatectl
+
+steve@shuttle:~$ timedatectl
+               Local time: Fri 2021-01-08 21:12:54 UTC
+           Universal time: Fri 2021-01-08 21:12:54 UTC
+                 RTC time: Fri 2021-01-08 21:12:54
+                Time zone: Etc/UTC (UTC, +0000)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+
+ls -l /etc/localtime
+
+steve@shuttle:~$ cat /etc/timezone
+Etc/UTC
+
+timedatectl list-timezones
+> Liste les time zones
+
+ timedatectl list-timezones | grep Paris
+ > Europe/Paris
+ 
+ sudo timedatectl set-timezone Europe/Paris
+ 
+ timedatectl

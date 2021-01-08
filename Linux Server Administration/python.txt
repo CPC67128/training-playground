@@ -1,0 +1,14 @@
+steve@shuttle:~$ sudo apt-get install python3.9
+
+python3 --version
+
+sudo apt install -y python3-pip
+
+pip3 install mechanize
+pip3 install BeautifulSoup4
+
+sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
+
+sudo apt-get install libmariadb3 libmariadb-dev // https://stackoverflow.com/questions/62584959/python-mariadb-pip-install-failed-missing-mariadb-config
+pip3 install mariadb
+
