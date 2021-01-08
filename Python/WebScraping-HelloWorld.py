@@ -1,4 +1,4 @@
-import mechanize # https://github.com/python-mechanize/mechanize / A installer à la main
+import mechanize # https://github.com/python-mechanize/mechanize / A installer à la main : pip3 install mechanize
 from bs4 import BeautifulSoup # pip3 install BeautifulSoup4
 
 br = mechanize.Browser()
