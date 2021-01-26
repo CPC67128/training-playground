@@ -7,3 +7,7 @@ sudo nano /etc/resolv.conf
 
 change 127.0.0.53 by 127.0.0.1
 Restart
+
+How to update Pi Hole:
+https://varhowto.com/update-pi-hole/#Step_3_%E2%80%94_Update_Pihole
+
