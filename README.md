@@ -2,7 +2,7 @@
 
 * React
 * Go
-* MEAN-Stack (MongoDB, Express.js, Angular (latest framework) and Node.js
+* MEAN-Stack (MongoDB, Express.js, Angular (latest framework) and Node.js / MERN
 * Chocolatey
 * GraphQL
 * Python
