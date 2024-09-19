@@ -1,12 +1,8 @@
 Reference article: https://architecturenotes.co/p/redis
 
-== Single Redis Instance
-
 Note: Redis is not supported on Windows
 
-Using my local Linux server, went to Portainer and created a first instance of Redis using Docker (refers to https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/docker/).
-
-Deployed redis/redis-stack:latest
+== Single Redis Instance
 
 === Linux Install
 
@@ -43,3 +39,14 @@ redis-ser 8913          nobody   17u  IPv6  50429      0t0  TCP *:6379 (LISTEN)
 
 Allowed inbound port 6379 in Azure
 
+Installed Redis Insight tool
+
+Connected it to the Redis database created recently, and then choose to load sample data to practice
+
+=== Docker
+
+Using my local Linux server, went to Portainer and created a first instance of Redis using Docker (refers to https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/docker/).
+
+Deployed redis/redis-stack:latest, make sure to expose ports 6379 and 8001
+
+Connect it to the Redis Insight, and load sample data
