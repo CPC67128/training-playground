@@ -16,3 +16,12 @@ React + Reduc <> API Rest Node.JS (Express JS)
 * REDIS (key-value DB)
 * Netfilter / iptables + fail2ban
 * Tor : Vidalia (UI), utilisation en proxy local associé à Polipo ou Privoxy / Tor Browser
+
+https://medium.com/@vndpal/how-to-dockerize-a-net-application-all-you-need-to-know-9b7d62cf5793
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+:arrow_forward:
+:white_check_mark:
+:heavy_minus_sign:
