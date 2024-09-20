@@ -1,4 +1,5 @@
-Reference article: https://architecturenotes.co/p/redis
+Articles used as reference for this study:
+* https://architecturenotes.co/p/redis
 
 Note: Redis is not supported on Windows
 
@@ -50,3 +51,18 @@ Using my local Linux server, went to Portainer and created a first instance of R
 Deployed redis/redis-stack:latest, make sure to expose ports 6379 and 8001
 
 Connect it to the Redis Insight, and load sample data
+
+
+== HA
+
+=== Structure
+
+Build 2 Redis servers in Azure France zone
+
+Redis1
+4.178.136.31
+PuTTY hostname azureuser@4.178.136.31
+
+RedisSecondary1
+4.233.219.196
+PuTTY hostname azureuser@4.233.219.196
