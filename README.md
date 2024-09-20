@@ -25,3 +25,5 @@ https://medium.com/@vndpal/how-to-dockerize-a-net-application-all-you-need-to-kn
 :arrow_forward:
 :white_check_mark:
 :heavy_minus_sign:
+
+https://medium.com/@vndpal/how-to-dockerize-a-net-application-all-you-need-to-know-9b7d62cf5793
