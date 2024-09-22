@@ -3,7 +3,6 @@
 React + Reduc <> API Rest Node.JS (Express JS)
 
 * React
-* Go
 * MEAN-Stack (MongoDB, Express.js, Angular (latest framework) and Node.js / MERN
 * Chocolatey
 * Python
@@ -21,3 +20,4 @@ React + Reduc <> API Rest Node.JS (Express JS)
 | GraphQL | :heavy_minus_sign: |  |
 | Twig | :arrow_forward: | Front templating for PHP |
 | Docker | :arrow_forward: | https://medium.com/@vndpal/how-to-dockerize-a-net-application-all-you-need-to-know-9b7d62cf5793 |
+| Go | :arrow_forward: |  |
