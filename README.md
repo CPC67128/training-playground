@@ -21,3 +21,4 @@ React + Reduc <> API Rest Node.JS (Express JS)
 | Twig | :arrow_forward: | Front templating for PHP |
 | Docker | :arrow_forward: | https://medium.com/@vndpal/how-to-dockerize-a-net-application-all-you-need-to-know-9b7d62cf5793 |
 | Go | :arrow_forward: |  |
+| EventStoreDB | :arrow_forward: | Event driven DB, try it |
