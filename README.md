@@ -7,7 +7,7 @@ React + Reduc <> API Rest Node.JS (Express JS)
 * Chocolatey
 * Python
 * https://etcd.io/
-* Fixtures : test data sampling for PHP
+
 * Adobe XD
 * 
 * Mercure Hub pour chat room
@@ -22,3 +22,4 @@ React + Reduc <> API Rest Node.JS (Express JS)
 | Docker | :arrow_forward: | https://medium.com/@vndpal/how-to-dockerize-a-net-application-all-you-need-to-know-9b7d62cf5793 |
 | Go | :arrow_forward: |  |
 | EventStoreDB | :arrow_forward: | Event driven DB, try it |
+| Fixtures | :arrow_forward: | Test data sampling for PHP |
