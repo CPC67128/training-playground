@@ -4,7 +4,7 @@ React + Reduc <> API Rest Node.JS (Express JS)
 
 * React
 * MEAN-Stack (MongoDB, Express.js, Angular (latest framework) and Node.js / MERN
-* Chocolatey
+* 
 * Python
 * https://etcd.io/
 
@@ -23,3 +23,4 @@ React + Reduc <> API Rest Node.JS (Express JS)
 | Go | :arrow_forward: |  |
 | EventStoreDB | :arrow_forward: | Event driven DB, try it |
 | Fixtures | :arrow_forward: | Test data sampling for PHP |
+| Chocolatey | :arrow_forward: | To build development environment |
