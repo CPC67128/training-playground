@@ -24,3 +24,4 @@ React + Reduc <> API Rest Node.JS (Express JS)
 | EventStoreDB | :arrow_forward: | Event driven DB, try it |
 | Fixtures | :arrow_forward: | Test data sampling for PHP |
 | Chocolatey | :arrow_forward: | To build development environment |
+| React | :arrow_forward: | |
