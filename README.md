@@ -2,7 +2,6 @@
 
 React + Reduc <> API Rest Node.JS (Express JS)
 
-* React
 * MEAN-Stack (MongoDB, Express.js, Angular (latest framework) and Node.js / MERN
 * 
 * Python
@@ -25,3 +24,6 @@ React + Reduc <> API Rest Node.JS (Express JS)
 | Fixtures | :arrow_forward: | Test data sampling for PHP |
 | Chocolatey | :arrow_forward: | To build development environment |
 | React | :arrow_forward: | |
+| Java (Refresh) | :arrow_forward: | |
+| Spring Boot | :arrow_forward: | |
+| gRPC | :arrow_forward: | |
