@@ -27,3 +27,5 @@ React + Reduc <> API Rest Node.JS (Express JS)
 | Java (Refresh) | :arrow_forward: | |
 | Spring Boot | :arrow_forward: | |
 | gRPC | :arrow_forward: | |
+| sAFE | :arrow_forward: | |
+| TOGAF | :arrow_forward: | |
