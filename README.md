@@ -2,7 +2,7 @@
 
 React + Reduc <> API Rest Node.JS (Express JS)
 
-* MEAN-Stack (MongoDB, Express.js, Angular (latest framework) and Node.js / MERN
+* 
 * 
 * Python
 * https://etcd.io/
@@ -29,3 +29,4 @@ React + Reduc <> API Rest Node.JS (Express JS)
 | gRPC | :arrow_forward: | |
 | sAFE | :arrow_forward: | |
 | TOGAF | :arrow_forward: | |
+| MEAN-Stack | :arrow_forward: | MongoDB, Express.js, Angular (latest framework) and Node.js / MERN |
