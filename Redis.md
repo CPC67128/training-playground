@@ -1,5 +1,5 @@
 Articles used as reference for this study:
-* https://architecturenotes.co/p/redis
+* https://architecturenotes.co/p/redis (Redis Explained by Mahdi Yusuf)
 
 Note: Redis is not supported on Windows
 
