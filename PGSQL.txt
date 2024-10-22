@@ -1,0 +1,53 @@
+La base de données est un point crucial dans un SI.
+
+Elle peut avoir un impact important sur les performances.
+
+Elle peut avoir un impact important sur la stabilité.
+
+
+Il y a quelques semaines, nous nous sommes lancés dans quelques optimisations pour rendre nos applicatifs plus performants.
+
+Voilà comment nous avons procédé :
+
+
+1. Install de l'extension pg_stat_statements pour PgSQL
+
+Cette extension nous permet d'avoir des métriques poussées sur les requêtes exécutées en base de données. Ces métriques ont l'avantage de pouvoir être exploitées directement en SQL.
+
+
+2. Création d'un dashboard pour simplifier le monitoring
+
+- Affichage des requêtes les plus longues à s'exécuter.
+- Affichage des index potentiellement manquants.
+- Affichage des index potentiellement inutiles.
+- Affichage du nombre de connexions par utilisateur sur la base.
+
+
+3. Ajout des bons index sur les requêtes longues
+
+Pour chaque requête avec un temps d'exécution supérieur à 200 ms, nous avons ajouté des index.
+
+Ça a nécessité une réflexion au cas par cas pour créer les bons index combinés dans le bon ordre pour chaque table.
+
+
+4. Suppression des index non utilisés
+
+Nous avons supprimé l'ensemble des index inutiles pour optimiser les opérations d'écriture et de modification.
+
+
+5. Opération de nettoyage des lignes mortes
+
+Pour finir, nous avons lancé un petit VACUUM ANALYZE et une réindexation sur chaque table critique.
+
+Ça a permis de gagner de la place mais aussi d'optimiser les plans d'exécution.
+
+
+
+Le temps d'exécution de certaines requêtes a été divisé par plus de 10 rapidement.
+
+Plus aucune requête ne s'exécute en plus de 200 ms.
+
+Le gain sur l'ensemble de la base est d'environ 30%.
+
+
+Pas si mal pour deux jours de temps investis, non ?
