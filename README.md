@@ -30,3 +30,7 @@ React + Reduc <> API Rest Node.JS (Express JS)
 | sAFE | :arrow_forward: | |
 | TOGAF | :arrow_forward: | |
 | MEAN-Stack | :arrow_forward: | MongoDB, Express.js, Angular (latest framework) and Node.js / MERN |
+| Elastic | :arrow_forward: |  |
+| Apache Kafka | :arrow_forward: |  |
+| Apache Flink | :arrow_forward: |  |
+
