@@ -34,6 +34,7 @@ React + Reduc <> API Rest Node.JS (Express JS)
 | Apache Kafka | :arrow_forward: |  |
 | Apache Flink | :arrow_forward: |  |
 | ProxMox |  |  |
+| Semantic Kernel | |  https://learn.microsoft.com/en-us/semantic-kernel/overview/ |
 
 
 
