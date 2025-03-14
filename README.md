@@ -33,6 +33,7 @@ React + Reduc <> API Rest Node.JS (Express JS)
 | Elastic | :arrow_forward: |  |
 | Apache Kafka | :arrow_forward: |  |
 | Apache Flink | :arrow_forward: |  |
+| ProxMox |  |  |
 
 
 
